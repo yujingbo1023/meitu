@@ -1,0 +1,11 @@
+/* 为什么不写*  *号效率低，一般情况下，网页上用到什么标签，就写什么标签 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td{margin: 0;padding: 0;}
+/* 由于text-align font-family有继承性 */
+body{text-align: center;font-family:'宋体';}
+/* list-style 去掉列表前面的小点 */
+ul,ol,li{ list-style: none;}
+/*text-decoration 去掉a标签默认的下划线*/
+a{text-decoration: none;}
+/*border:none，去掉默认的边框 */
+/*vertical-align：middle 垂直方向居中*/
+input,button,img{border: none;vertical-align: middle;}
